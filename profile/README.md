@@ -19,7 +19,7 @@
 
 **접속: https://pickle.pusan.ac.kr**
 
-<!-- arch:begin — 저장소 공통 블록입니다. 손으로 고치지 마세요. -->
+<!-- arch:begin — 레포지토리 공통 블록입니다. 손으로 고치지 마세요. -->
 ```mermaid
 flowchart LR
     subgraph ext [외부]
@@ -76,7 +76,7 @@ flowchart LR
     IB -.->|템플릿 빌드| PVE
 ```
 
-| 저장소 | 역할 |
+| 레포지토리 | 역할 |
 |---|---|
 | [pickle-api](https://github.com/PNUops/pickle-api) | REST API와 프로비저닝 워커 (Spring Boot 4, Java 25, PostgreSQL 18, JobRunr) |
 | [pickle-console](https://github.com/PNUops/pickle-console) | 사용자·관리자 웹 콘솔 (React 19, TypeScript) |
@@ -102,7 +102,7 @@ flowchart LR
 
 **접속: https://opus.pusan.ac.kr**
 
-| 저장소 | 역할 |
+| 레포지토리 | 역할 |
 |---|---|
 | [opus-backend](https://github.com/PNUops/opus-backend) | 대회·팀·제출물 관리 API (Spring Boot 3.5, Java 17, MySQL 8, Redis) |
 | [opus-frontend](https://github.com/PNUops/opus-frontend) | 프로젝트 전시와 심사 화면 (React 19, TypeScript, Vite, Tailwind) |
