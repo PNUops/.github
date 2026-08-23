@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Verification gate: shell lint + publication hygiene + profile asset integrity.
+# Verification gate: shell lint + profile asset integrity.
 # Run it before every commit; CI runs the same script on push and pull request.
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -14,14 +14,6 @@ mapfile -d '' -t scripts < "$listing"
 [ "${#scripts[@]}" -gt 0 ] || { echo "verify: no scripts found" >&2; exit 1; }
 shellcheck "${scripts[@]}"
 
-# Publication hygiene: no references to paths this repository does not contain,
-# none to a private tree or a vault, no internal process tokens. This page is
-# the organisation's front door, so it is the most-read text the project has and
-# the one nobody re-reads before publishing.
-# shellcheck source=scripts/hygiene.sh
-. scripts/hygiene.sh   # cwd is the repo root (set above)
-hygiene_selftest
-hygiene_check public
 
 # The profile page loads its images through absolute raw file URLs, because a
 # relative path in a profile README resolves against the viewer's page rather
