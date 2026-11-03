@@ -1,7 +1,6 @@
 # PNUops
 
-부산대학교 정보컴퓨터공학부 동아리입니다. 학내에서 실제로 운영되는 서비스를 직접
-설계하고, 만들고, 배포하고, 운영합니다.
+부산대학교 정보컴퓨터공학부 동아리예요. 학내에서 쓰는 서비스를 직접 설계하고 만들고 운영해요.
 
 동아리 소개: https://pnuops.github.io/pnu-ops/
 
@@ -13,9 +12,8 @@
   <img src="https://raw.githubusercontent.com/PNUops/.github/main/profile/assets/pickle-landing.png" width="880" alt="PNU Cloud 랜딩" />
 </p>
 
-부산대학교 구성원을 위한 셀프서비스 클라우드입니다. 웹 콘솔에서 VM을 신청하면 관리자
-승인 후 Proxmox VE에 자동으로 프로비저닝되고, SSH 게이트웨이 접속과 웹 터미널,
-도메인 기반 HTTPS 공개까지 제공합니다.
+부산대학교 구성원을 위한 셀프서비스 클라우드예요. 웹 콘솔에서 VM을 신청하면 관리자 승인 뒤
+Proxmox VE에 자동으로 만들어요. SSH 게이트웨이와 웹 터미널 접속, 도메인 기반 HTTPS 공개를 제공해요.
 
 **접속: https://pickle.pusan.ac.kr**
 
@@ -103,13 +101,14 @@ flowchart LR
   <img src="https://raw.githubusercontent.com/PNUops/.github/main/profile/assets/opus-cover.png" width="880" alt="OPUS 커버" />
 </p>
 
-부산대학교 내 SW프로젝트(캡스톤, 해커톤, 교과 등)의 성과를 등록하고 관리하고 공유하는
-시스템입니다. 대회와 팀, 제출물을 운영 관점에서 다루며, 창의융합SW해커톤에서 시작해
-여러 기여자가 함께 만들어 온 서비스입니다.
+부산대학교 SW프로젝트의 성과를 등록하고 공유하는 서비스예요. 캡스톤과 해커톤, 교과 프로젝트의
+대회와 팀, 제출물을 관리해요. 창의융합SW해커톤에서 시작해 여러 기여자가 함께 만들었어요.
 
 **접속: https://opus.pusan.ac.kr**
 
 | 레포지토리 | 역할 |
 |---|---|
-| [opus-backend](https://github.com/PNUops/opus-backend) | 대회·팀·제출물 관리 API (Spring Boot 3.5, Java 17, MySQL 8, Redis) |
-| [opus-frontend](https://github.com/PNUops/opus-frontend) | 프로젝트 전시와 심사 화면 (React 19, TypeScript, Vite, Tailwind) |
+| [opus-backend](https://github.com/PNUops/opus-backend) | 대회와 팀, 제출물 관리 API(Spring Boot 3.5, Java 17, MySQL 8, Redis) |
+| [opus-frontend](https://github.com/PNUops/opus-frontend) | 프로젝트 전시와 심사 화면(React 19, TypeScript, Vite, Tailwind) |
+
+최종 갱신: 2026-11-03
